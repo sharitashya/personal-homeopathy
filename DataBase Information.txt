@@ -1,0 +1,97 @@
+**************************************** PreAdded Data for MySql(for proper working of HomoD) *********************************
+
+((((((((((Medicines Names))))))))))))))))          ((((((((((((((Power Options))))))))))))
+Calcarea Florica                                                   3x
+Calcarea Phosphorica                                               6x                                               
+Calcarea Sulphurica                                                12x
+Ferrum Phosphoricum                                                200x
+Kalium Muriaticum
+Kalium Phosphoricum
+Kalium Sulphuricum
+Magnesium Phosphoricum
+Natrum Muriaticum
+Natrum Phosphoricum
+Natrum Sulphuricum
+Silicea
+
+^^^^^^^^^^^^^^ ADD Type ^^^^^^^^^^^^^^^^^^^
+
+insert into medi values('"+pbname+"','"+k+"','"+a11+"',"+K+");
+ 
+
+
+/////////////// add this(this will add medicines  in database"PreAdded") ///////////////
+
+create database if not exists homodoct;
+use homodoct;
+
+create table if not exists medi(prob_name varchar(30),medicine varchar(1000),power varchar(5),quantity int(5));
+
+insert into Medi values('Constipation','Calcarea Florica','3x','3');
+insert into Medi values('Constipation','Calcarea Phosphorica','3x','3');
+insert into Medi values('Constipation','Kalium Phosphoricum','3x','3');
+insert into Medi values('Constipation','Kalium Phosphoricum','3x','3');
+insert into Medi values('Constipation','Kalium Muriaticum','3x','3');
+insert into Medi values('Constipation','Kalium Sulphuricum','3x','3');
+insert into Medi values('Constipation','Natrum Muriaticum','3x','3');
+insert into Medi values('Constipation','Natrum Phosphoricum','3x','3');
+insert into Medi values('Constipation','Silicea','3x','3');
+
+insert into Medi values('Cramp','Kalium Phosphoricum','12x','4');
+insert into Medi values('Cramp','Calcarea Phosphorica','3x','3');
+insert into Medi values('Cramp','Magnesium Phosphoricum','3x','3');
+
+insert into Medi values('Dandruff",'Kalium Muriaticum','3x','3');
+insert into Medi values('Dandruff",'Kalium Phosphoricum','3x','3');
+insert into Medi values('Dandruff",'Natrum Muriaticum','3x','3');
+
+
+insert into Medi values('Diabetes','Calcarea Phosphorica','3x','5');
+insert into Medi values('Diabetes','Ferrum Phosphoricum','12x','5');
+insert into Medi values('Diabetes','Kalium Phosphoricum','3x','5');
+insert into Medi values('Diabetes','Magnesium Phosphoricum','3x','5');
+insert into Medi values('Diabetes','Natrum Sulphuricum','3x','5');
+insert into Medi values('Diabetes','Natrum Phosphoricum','3x','5');
+
+insert into Medi values('Conjunctivitis','Calcarea Florica','3x','4');
+insert into Medi values('Conjunctivitis','Ferrum Phosphoricum','12x','4');
+insert into Medi values('Conjunctivitis','Kalium Muriaticum','3x','4');
+insert into Medi values('Conjunctivitis','Kalium Phosphoricum','3x','4');
+insert into Medi values('Conjunctivitis','Kalium Sulphuricum','3x','4');
+insert into Medi values('Conjunctivitis','Natrum Muriaticum','3x','4');
+insert into Medi values('Conjunctivitis','Natrum Phosphoricum','3x','4');
+insert into Medi values('Conjunctivitis','Natrum Sulphuricum','3x','4');
+insert into Medi values('Conjunctivitis','Silicea','12x','4');
+
+insert into Medi values('Fever','Ferrum Phosphoricum','12x','6');
+insert into Medi values('Fever','Kalium Muriaticum','3x','6');
+insert into Medi values('Fever','Natrum Sulphuricum','3x','6');
+
+insert into Medi values('High_Blood_Pressure','Calcarea Florica','3x','5');
+insert into Medi values('High_Blood_Pressure','Calcarea Phosphorica','12x','5');
+insert into Medi values('High_Blood_Pressure','Calcarea Sulphurica','12x','5');
+insert into Medi values('High_Blood_Pressure','Ferrum Phosphoricum','3x','5');
+insert into Medi values('High_Blood_Pressure','Kalium Muriaticum','3x','5');
+insert into Medi values('High_Blood_Pressure','Kalium Phosphoricum','3x','5');
+insert into Medi values('High_Blood_Pressure','Kalium Sulphuricum','3x','5');
+insert into Medi values('High_Blood_Pressure','Magnesium Phosphoricum','3x','5');
+insert into Medi values('High_Blood_Pressure','Natrum Muriaticum','3x','5');
+insert into Medi values('High_Blood_Pressure','Natrum Phosphoricum','3x','5');
+insert into Medi values('High_Blood_Pressure','Natrum Sulphuricum','3x','5');
+insert into Medi values('High_Blood_Pressure','Silicea','12x','5');
+
+
+
+
+/////////////// add this(this will create Doctors(for App)) ///////////////
+
+
+
+
+
+
+
+
+
+ 
+
